@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		3D012188C601960D6F2E8807 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80DB25CE5E18C63A44CEE87 /* ExpoModulesProvider.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		408449E08328380AF69C3183 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C97C76CC2453D39DB536897 /* ExpoModulesProvider.swift */; };
+		7B1C9B82BF96953AB0EE200B /* libPods-dailyzen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F701EAF604ED9F3D1DE70 /* libPods-dailyzen.a */; };
+		A2DCEBC2F2B3ECF41BBA5947 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 17AF274318FC122B74810A62 /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		BE21767A6165A23DA390A292 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A428CABCD6C332ED459AD25A /* PrivacyInfo.xcprivacy */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		F8C0570DB0B218C1D33D9319 /* libPods-dailyzen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AF81A0B6C7B5FB9229B6E4 /* libPods-dailyzen.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E0BE019E52BA0F0513E871D /* Pods-dailyzen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyzen.release.xcconfig"; path = "Target Support Files/Pods-dailyzen/Pods-dailyzen.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* dailyzen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dailyzen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = dailyzen/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = dailyzen/Info.plist; sourceTree = "<group>"; };
-		86AF81A0B6C7B5FB9229B6E4 /* libPods-dailyzen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dailyzen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A428CABCD6C332ED459AD25A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = dailyzen/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		17AF274318FC122B74810A62 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = dailyzen/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6460D6B002C52B231A5719C9 /* Pods-dailyzen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyzen.release.xcconfig"; path = "Target Support Files/Pods-dailyzen/Pods-dailyzen.release.xcconfig"; sourceTree = "<group>"; };
+		6C97C76CC2453D39DB536897 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-dailyzen/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		7A880B07E4FF18AE64253A63 /* Pods-dailyzen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyzen.debug.xcconfig"; path = "Target Support Files/Pods-dailyzen/Pods-dailyzen.debug.xcconfig"; sourceTree = "<group>"; };
+		A66F701EAF604ED9F3D1DE70 /* libPods-dailyzen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dailyzen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = dailyzen/SplashScreen.storyboard; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C80DB25CE5E18C63A44CEE87 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-dailyzen/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		DCC927DBD43AA0DA9AF48D3B /* Pods-dailyzen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyzen.debug.xcconfig"; path = "Target Support Files/Pods-dailyzen/Pods-dailyzen.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = dailyzen/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* dailyzen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "dailyzen-Bridging-Header.h"; path = "dailyzen/dailyzen-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8C0570DB0B218C1D33D9319 /* libPods-dailyzen.a in Frameworks */,
+				7B1C9B82BF96953AB0EE200B /* libPods-dailyzen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				A428CABCD6C332ED459AD25A /* PrivacyInfo.xcprivacy */,
+				17AF274318FC122B74810A62 /* PrivacyInfo.xcprivacy */,
 			);
 			name = dailyzen;
 			sourceTree = "<group>";
@@ -62,19 +62,17 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				86AF81A0B6C7B5FB9229B6E4 /* libPods-dailyzen.a */,
+				A66F701EAF604ED9F3D1DE70 /* libPods-dailyzen.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		344AB50F2BADA54E2DD5CBB2 /* Pods */ = {
+		626EFEA6902B9A3158C1A942 /* dailyzen */ = {
 			isa = PBXGroup;
 			children = (
-				DCC927DBD43AA0DA9AF48D3B /* Pods-dailyzen.debug.xcconfig */,
-				0E0BE019E52BA0F0513E871D /* Pods-dailyzen.release.xcconfig */,
+				6C97C76CC2453D39DB536897 /* ExpoModulesProvider.swift */,
 			);
-			name = Pods;
-			path = Pods;
+			name = dailyzen;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -91,8 +89,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				344AB50F2BADA54E2DD5CBB2 /* Pods */,
-				9034E6C4E6823C59625EBDC7 /* ExpoModulesProviders */,
+				FA1214B38B30DF9A8B79E5A1 /* Pods */,
+				ACC8270795799911C45A692F /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -107,10 +105,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9034E6C4E6823C59625EBDC7 /* ExpoModulesProviders */ = {
+		ACC8270795799911C45A692F /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				C21E9494022BB50A5394BFDA /* dailyzen */,
+				626EFEA6902B9A3158C1A942 /* dailyzen */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
@@ -124,12 +122,14 @@
 			path = dailyzen/Supporting;
 			sourceTree = "<group>";
 		};
-		C21E9494022BB50A5394BFDA /* dailyzen */ = {
+		FA1214B38B30DF9A8B79E5A1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C80DB25CE5E18C63A44CEE87 /* ExpoModulesProvider.swift */,
+				7A880B07E4FF18AE64253A63 /* Pods-dailyzen.debug.xcconfig */,
+				6460D6B002C52B231A5719C9 /* Pods-dailyzen.release.xcconfig */,
 			);
-			name = dailyzen;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dailyzen" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				80C6BE7387471FCA49AFDE53 /* [Expo] Configure project */,
+				C82F7C7FDB3E91A6C7DDE0CB /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				3ABE0CA0B639BF46388509EE /* [CP] Embed Pods Frameworks */,
+				C22C07CD0255A32F2D647E70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				BE21767A6165A23DA390A292 /* PrivacyInfo.xcprivacy in Resources */,
+				A2DCEBC2F2B3ECF41BBA5947 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,28 +242,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3ABE0CA0B639BF46388509EE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dailyzen/Pods-dailyzen-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/React-Core-prebuilt/React.framework/React",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeDependencies/ReactNativeDependencies.framework/ReactNativeDependencies",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactNativeDependencies.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dailyzen/Pods-dailyzen-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,7 +278,29 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dailyzen/Pods-dailyzen-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		80C6BE7387471FCA49AFDE53 /* [Expo] Configure project */ = {
+		C22C07CD0255A32F2D647E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dailyzen/Pods-dailyzen-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/React-Core-prebuilt/React.framework/React",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeDependencies/ReactNativeDependencies.framework/ReactNativeDependencies",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactNativeDependencies.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dailyzen/Pods-dailyzen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C82F7C7FDB3E91A6C7DDE0CB /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -332,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				3D012188C601960D6F2E8807 /* ExpoModulesProvider.swift in Sources */,
+				408449E08328380AF69C3183 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +341,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCC927DBD43AA0DA9AF48D3B /* Pods-dailyzen.debug.xcconfig */;
+			baseConfigurationReference = 7A880B07E4FF18AE64253A63 /* Pods-dailyzen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -377,7 +377,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E0BE019E52BA0F0513E871D /* Pods-dailyzen.release.xcconfig */;
+			baseConfigurationReference = 6460D6B002C52B231A5719C9 /* Pods-dailyzen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

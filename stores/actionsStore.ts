@@ -11,6 +11,7 @@ type Actions = {
 export const useActions = create<Actions>(() => ({
   toggleFavorite: (quoteId) => {
     const user = useUserStore.getState();
+    user.setPremium(false);
     const fav = useFavoritesStore.getState();
     const ui = useUIStore.getState();
 

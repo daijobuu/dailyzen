@@ -1204,8 +1204,8 @@ export const quotes: Quote[] = [
     author: 'J.R.R. Tolkien',
   },
   {
-    text: 'Not all those who wander are lost.',
-    author: 'J.R.R. Tolkien',
+    text: 'The trouble is, you think you have time.',
+    author: 'Jack Kornfield',
   },
   {
     text: 'Do not pity the dead. Pity the living, and, above all those who live without love.',

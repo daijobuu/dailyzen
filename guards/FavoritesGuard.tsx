@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import Favorites from '../screens/Favorites';
 import PaywallModal from '../components/PaywallModal';
 import { useUserStore } from '../stores/userStore';
@@ -11,26 +11,29 @@ export default function FavoritesGuard() {
   const navigation = useNavigation<any>();
 
   useFocusEffect(
-    React.useCallback(() => {
-      if (!isPremium) setShowPaywall(true);
-      else setShowPaywall(false);
+    useCallback(() => {
+      if (!isPremium) {
+        setShowPaywall(true);
+      }
+
+      return () => setShowPaywall(false);
     }, [isPremium]),
   );
 
-  const handleClose = () => {
+  const handleClose = useCallback(() => {
     setShowPaywall(false);
     if (!isPremium) {
       navigation.navigate('Home');
     }
-  };
+  }, [isPremium, navigation]);
 
   if (isPremium) {
     return <Favorites />;
   }
 
-  if (showPaywall) {
-    return <PaywallModal visible={showPaywall} onClose={handleClose} />;
+  if (!showPaywall) {
+    return null;
   }
 
-  return null;
+  return <PaywallModal visible={showPaywall} onClose={handleClose} />;
 }
